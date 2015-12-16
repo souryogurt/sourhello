@@ -1,0 +1,3 @@
+[submodule "sourkode"]
+	path = sourkode
+	url = https://github.com/souryogurt/sourkode.git
