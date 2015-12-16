@@ -5,5 +5,5 @@ set(hello_SOURCES "src/main.c")
 
 add_subdirectory("sourkode")
 include_directories("sourkode/inc")
-add_executable(hello WIN32 ${hello_SOURCES} ${hello_HEADERS})
+add_executable(hello ${hello_SOURCES} ${hello_HEADERS})
 target_link_libraries(hello sourkode ${SOURKODE_LIBRARIES})
