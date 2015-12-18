@@ -1,5 +1,6 @@
 project (hello C)
 cmake_minimum_required(VERSION 2.8.9)
+set(CMAKE_SHARED_LIBRARY_LINK_C_FLAGS "")
 
 set(hello_SOURCES "src/main.c")
 
